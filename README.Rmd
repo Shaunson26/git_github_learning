@@ -7,7 +7,8 @@ output: github_document
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  echo = FALSE
 )
 ```
 
@@ -17,3 +18,32 @@ knitr::opts_chunk$set(
 <!-- badges: end -->
 
 A repository to practice git and github stuff with other people.
+
+## Cloning a repo within RStudio
+
+- Get the repo link from github
+
+```{r, fig.align='center'}
+knitr::include_graphics('readme-images/github-link.png')
+```
+
+- Go to RStudio
+- File -> New Project ...
+- Click 'Version control'
+
+```{r, fig.align='center'}
+knitr::include_graphics('readme-images/rstudio-version-control.png')
+```
+
+- Click 'git'
+- Insert link
+
+```{r, fig.align='center'}
+knitr::include_graphics('readme-images/rstudio-github-link.png')
+```
+
+- Done
+
+```{r, fig.align='center'}
+knitr::include_graphics('readme-images/rstudio-cloned-repo.png')
+```
